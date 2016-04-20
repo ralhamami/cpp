@@ -1,0 +1,43 @@
+﻿Build started 6/13/2015 4:18:33 AM.
+     1>Project "C:\Users\Rayan\Documents\Visual Studio 2013\Projects\assignment2\assignment2\assignment2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp BoatConfig.cpp
+         BoatConfig.cpp
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.cpp(3): error C2758: 'Boatconfig::n' : a member of reference type must be initialized
+                 c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.h(5) : see declaration of 'Boatconfig::n'
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.cpp(3): error C2758: 'Boatconfig::W' : a member of reference type must be initialized
+                 c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.h(6) : see declaration of 'Boatconfig::W'
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.cpp(4): error C2166: l-value specifies const object
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.cpp(14): error C2166: l-value specifies const object
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\boatconfig.cpp(22): error C2166: l-value specifies const object
+         main.cpp
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(23): error C3867: 'Boatconfig::getWt': function call missing argument list; use '&Boatconfig::getWt' to create a pointer to member
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(23): error C2109: subscript requires array or pointer type
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(50): error C3867: 'Boatconfig::getVal': function call missing argument list; use '&Boatconfig::getVal' to create a pointer to member
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(50): error C2109: subscript requires array or pointer type
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(51): error C3867: 'Boatconfig::getWt': function call missing argument list; use '&Boatconfig::getWt' to create a pointer to member
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(51): error C2109: subscript requires array or pointer type
+     1>c:\users\rayan\documents\visual studio 2013\projects\assignment2\assignment2\main.cpp(60): error C2679: binary '>>' : no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(485): could be 'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_streambuf<char,std::char_traits<char>> *)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(466): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(void *&)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(448): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(430): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(double &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(411): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(float &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(392): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned __int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(373): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(__int64 &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(353): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(335): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(long &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(317): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(291): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(int &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(272): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(unsigned short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(237): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(short &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(218): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::_Bool &)'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(211): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(204): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\istream(198): or       'std::basic_istream<char,std::char_traits<char>> &std::basic_istream<char,std::char_traits<char>>::operator >>(std::basic_istream<char,std::char_traits<char>> &(__cdecl *)(std::basic_istream<char,std::char_traits<char>> &))'
+         Generating Code...
+     1>Done Building Project "C:\Users\Rayan\Documents\Visual Studio 2013\Projects\assignment2\assignment2\assignment2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.83

@@ -1,0 +1,15 @@
+﻿Build started 4/13/2016 7:50:21 PM.
+     1>Project "C:\Users\Rayan\Documents\Visual Studio 2013\Projects\Multischedule\Multischedule\Multischedule.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt multi.cpp
+         multi.cpp
+     1>c:\users\rayan\documents\visual studio 2013\projects\multischedule\multischedule\multi.cpp(34): error C2040: 'running' : 'std::queue<Process,std::deque<_Ty,std::allocator<_Ty>>>' differs in levels of indirection from 'int [16]'
+                 with
+                 [
+                     _Ty=Process
+                 ]
+     1>Done Building Project "C:\Users\Rayan\Documents\Visual Studio 2013\Projects\Multischedule\Multischedule\Multischedule.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.75
